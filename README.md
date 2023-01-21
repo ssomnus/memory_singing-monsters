@@ -1,4 +1,4 @@
-# memory_singing-monsters
+# Singing monsters. Memory
 Группа Р34682 Крупянко Софья. Браузерная игра My Singing Monsters: Memory
 
 <h2>Описание игры</h2>
