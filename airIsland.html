@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>My Singing Monsters. Memory game</title>
+    <link rel="stylesheet" href="styleAir.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cont">
+        <div class="stats-container">
+            <div id="moves-count"></div>
+            <div id="time"></div>
+        </div>
+
+        <div class="memory-game"></div>
+        <button id="stop" class="hide">Стоп</button>
+    </div>
+
+    <div class="controls-container">
+        <img src="images/back.png" class="img-first">
+        <a href="main.html" class="menu">
+            <img src="btn/home.png">
+        </a>
+        <h2>Воздушный остров</h2>
+        <div class="hide" id="modal"> <!-- модальное окно победы-->
+            <div class="mod">
+                <h2>Победа!</h2>
+                <h3>Результат: </h3>
+                <p id="result"></p>
+            </div>
+        </div>
+        <button id="start" class="btn">Начать</button>
+    </div>
+
+    <script src="scriptAir.js"></script>
+</body>
+</html>
